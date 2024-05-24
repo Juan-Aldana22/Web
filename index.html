@@ -1,2 +1,104 @@
-<h1>Hello, this is my website</h1>
-<p>Today is Thursday</p>
+<html>
+  <head>
+	<title>My Favorite Sport</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+header {
+  background-color: orange;
+  color: Black;
+  padding: 1em;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+
+.intro {
+  background-color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gallery img {
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  background-color: orange;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info li {
+  margin-bottom: 10px;
+}
+
+.info a {
+  color: white;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: white;
+}
+    </style>
+  </head>
+  <body>
+	<header>
+  	<h1>My Favorite Sport</h1>
+  	<h2>Let's hoop!</h2>
+	</header>
+	<main>
+  	<p>Basketball is the best sport on the planet because is so fun to play. </p>
+  	<br>
+  	<p class="intro">Pictures of the best sport on the planet</p>
+  	<div class="gallery">
+    	<img src="https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2024/04/1200/675/USA-Basketball-mens-team.jpg?ve=1&tl=1" alt="Image 1" width="200" height="150">
+    	<img src="https://www.usatoday.com/gcdn/authoring/authoring-images/2023/08/30/USAT/70715606007-ap-world-cup-us-jordan-basketball.jpg" alt="Image 2" width="200" height="150">
+    	<img src="https://www.octagon.com/wp-content/uploads/2022/08/Talent_Basketball_image_Final_1920_Steph-Currey-1024x593.jpg" alt="Image 3" width="200" height="150">
+   
+  	</div>
+  	<section class="info">
+    	<h3>Links</h3>
+      	<a href="https://youtu.be/fVHTfeXoLE4">Youtube Link</a>
+      	<br>
+      	<a href="https://youtu.be/BOSZmBpt9Sw">Youtube Link</a>
+     	 
+    	</p>
+  	</section>
+	</main>
+  </body>
+</html>
